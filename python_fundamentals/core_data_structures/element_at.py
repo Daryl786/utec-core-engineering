@@ -1,8 +1,9 @@
+cat > element_at.py << 'EOF'
 #!/usr/bin/env python3
 
 
 def element_at(my_list, idx):
-    """Devuelve el elemento en idx, o None si idx es negativo o fuera de rango."""
+    """Devuelve el elemento en idx, o None si no es valido."""
     if idx < 0 or idx >= len(my_list):
         return None
     return my_list[idx]
