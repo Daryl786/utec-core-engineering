@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Modulo para leer un archivo de texto UTF-8 e imprimirlo."""
 
 
 def read_file(filename=""):
